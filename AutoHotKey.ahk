@@ -1,5 +1,9 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 
+; Prevents autoscrolling mode. This setting makes scrolling comfortable when using ThinkPad trackpoint scroll.
+MButton::Return
+
+
 ; Moving around & deleting words (crutial settings for me)
 ^f::Send, {Right}
 ^b::Send, {Left}
@@ -12,4 +16,5 @@
 
 ; Disable some harmful shortcuts
 ^j::Return 
+
 
