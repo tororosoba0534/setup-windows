@@ -18,6 +18,27 @@ MButton::Return
 ^h::Send, {BS}
 ^k::Send, +{End}{Del}
 
+; Copy & paste
+!x::Send, ^x
+!c::Send, ^c
+!v::Send, ^v 
+^c::Send, {Esc}
+
+; Arrow keys in the home position
+!h::Send, {Left}
+!j::Send, {Down}
+!k::Send, {Up}
+!l::Send, {Right}
+
+; Window manager e.t.c.
+; Moving between virtual desktops
+#j::SendEvent {LWin down}{LCtrl down}{Left  down}{LWin up}{LCtrl up}{Right up}
+    return 
+#k::SendEvent {LWin down}{LCtrl down}{Right down}{LWin up}{LCtrl up}{Right up}
+    return
+; Switch focusing app
+!Tab::Send, !{Esc}
+
 ; Disable some harmful shortcuts
 ^j::Return 
 
