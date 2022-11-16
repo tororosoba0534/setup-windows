@@ -22,13 +22,6 @@ MButton::Return
 !x::Send, ^x
 !c::Send, ^c
 !v::Send, ^v 
-^c::Send, {Esc}
-
-; Arrow keys in the home position
-!h::Send, {Left}
-!j::Send, {Down}
-!k::Send, {Up}
-!l::Send, {Right}
 
 ; Window manager e.t.c.
 ; Moving between virtual desktops
