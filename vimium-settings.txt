@@ -1,4 +1,7 @@
 # You shoud copy & paste below code to "Custom key mappings"
 # Insert your preferred key mappings here.
+# Insert your preferred key mappings here.
 map F LinkHints.activateModeToOpenInNewForegroundTab
 map <c-F> LinkHints.activateModeToOpenInNewTab
+map d scrollFullPageDown
+map u scrollFullPageUp
